@@ -9,7 +9,6 @@ class Yo < Formula
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_sequoia:  "dec76e0ab001840b2d057f4ed4dbb084944cc44b662f93e811a5fdce9bd80904"
     sha256 cellar: :any_skip_relocation, arm64_sonoma:   "3952f75866cc905302121f85682493adffe8f27e1f4d32109fecfb1604692cd3"
-    sha256 cellar: :any_skip_relocation, arm64_ventura:  "3952f75866cc905302121f85682493adffe8f27e1f4d32109fecfb1604692cd3"
     sha256 cellar: :any_skip_relocation, arm64_monterey: "3952f75866cc905302121f85682493adffe8f27e1f4d32109fecfb1604692cd3"
     sha256 cellar: :any_skip_relocation, sonoma:         "7b66073b40d522594a57debc8312dbbd7799f9ed75fcc7e58f82834428aa41d3"
     sha256 cellar: :any_skip_relocation, ventura:        "7b66073b40d522594a57debc8312dbbd7799f9ed75fcc7e58f82834428aa41d3"
@@ -29,3 +28,5 @@ class Yo < Formula
     assert_match "Everything looks all right!", shell_output("#{bin}/yo doctor")
   end
 end
+
+    sha256 cellar: :any_skip_relocation, arm64_ventura:  "3952f75866cc905302121f85682493adffe8f27e1f4d32109fecfb1604692cd3"
